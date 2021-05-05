@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Importados</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" type="text/css" href="estilo-imagen-inicio0.css" />
+</head>
+
+<header>
+  <h1 style="color:black; font-family: Courier New ; font-size:70px">IMPORTADOS <img src="https://image.flaticon.com/icons/png/128/684/684843.png" width="120" height="120" /></h1> 
+</header>
+
+<body style="font-family: times new roman; font-size: 20px; text-align: center">
+<h1 style="color: black; font-family: Courier New; font-size:33px; text-align: center;">¡Inicia sesión y realiza tu compra!</h1> <br> 
+
+ <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ Ingrese su nombre:
+  <input type="text" name="Nombre">
+  <br>
+  <br>
+   Ingrese su apellido:
+  <input type="text" name="ap">
+  <br>
+  <br>
+  Ingrese su contraseña:
+  <input type = "password" name="contra" >
+  <br>
+  <br>
+
+ <!--lista desplegable  -->
+ Tipo de entrega:
+  <select name="Opciones">
+    <option value = "Retiro en tienda">Retiro en tienda</option>
+    <option value = "Envío a domicilio">Envío a domicilio</option>
+    </select>
+    <br>
+    <br>  
+
+   <!--opciones  -->  
+   Selecciona medio de pago: <br>  
+    <input type="radio" id="Efectivo" name="pago" value="Efectivo" >
+     <label for= "Efectivo">Efectivo</label>
+     <br>
+    <input type="radio" id="Mercado pago" name="pago" value="Mercado pago">
+     <label for= "Mercado pago">Mercado pago</label>
+     <br>  
+    <input type="radio" id="Tarjeta de crédito/débito" name="pago" value="Tarjeta de crédito/débito">
+     <label for= "Tarjeta de crédito/débito">Tarjeta de crédito/débito</label>
+     <br>  
+     <br>
+
+  <!--cuadro de texto  -->
+  Contanos tu experiencia de compra! <br>   
+  <textarea name="comentario" rows="5" cols="40">Escribe tu comentario...</textarea>  <br> <br>   
+  
+  <!--botón  -->
+     <input type="submit" value="Enviar" style="background-color: pink; font-family:times new roman; font-size:28px; ">
+
+   </form>
+</body>
+</html>
