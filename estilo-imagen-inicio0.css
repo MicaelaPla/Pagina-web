@@ -2,6 +2,12 @@
   background-color: #FBEDFF;
 }
 
+header{
+  border:20px solid pink;
+  text-align: center;
+  height: 200px;
+}
+
 nav {
   padding: 3em;
   font-family: font-family: Verdana, Geneva, sans-serif;
